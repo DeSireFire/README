@@ -40,6 +40,7 @@ README
 * [块引用](#块引用)
 * [代码高亮](#代码高亮)
 * [表格](#表格)
+* [Alerts](#Alerts)
 * [表情](#表情)
 * [diff语法](#diff语法)
 * [常用HTML语法](#常用HTML语法)
@@ -392,6 +393,39 @@ string &operator+(const string& A,const string& B) //cpp
 | 图片 | 描述 |
 | ---- | ---- |
 |![baidu][baidu-logo] | 百度|
+
+## Alerts
+```
+> [!NOTE]
+> 这是一个提示信息
+
+> [!TIP]
+> 这是一个技巧提示
+
+> [!IMPORTANT]
+> 这是重要信息
+
+> [!WARNING]
+> 这是警告信息
+
+> [!CAUTION]
+> 这是危险警告
+```
+效果如下：
+> [!NOTE]
+> 这是一个提示信息
+
+> [!TIP]
+> 这是一个技巧提示
+
+> [!IMPORTANT]
+> 这是重要信息
+
+> [!WARNING]
+> 这是警告信息
+
+> [!CAUTION]
+> 这是危险警告
 
 ## 表情
 Github的Markdown语法支持添加emoji表情，输入不同的符号码（两个冒号包围的字符）可以显示出不同的表情。
